@@ -5,20 +5,23 @@ body {
   font-size: 10px;
 }
 
-}
-nav {
-  margin:0px;
-  padding: 0;
-  position: fixed;
-  width: 420px;
-}
-
-section{
-box-sizing:border-box;
-display:block;
+h1{
+  font-size: 1em;
+  font-weight: bolder;
+  padding: 10px 0 5px 10px;
+  display: block;
+  align-self: center;
 }
 
-/* top nav arrow */
+ h3{
+
+  font-size: .8em;
+  padding: 0px 0 5px 10px;
+  font-weight: 100;
+  display: block;
+  vertical-align: middle;
+
+}
 .arrow-left{
   background-color: black;
   width:400px;
@@ -44,13 +47,8 @@ background: #CFD0D0;
 border-bottom: .2px solid #646565;
 }
 
-.arrow{
-
-  text-align: right;
-  display: block;
-}
-.fa-inverse{
-  /* display: block; */
-      padding: 10px;
-
+div .arrow{
+  font-size: 1em;
+  display: inline-block;
+  float: right;
 }
