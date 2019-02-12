@@ -4,11 +4,11 @@
 body {
   background-color: white;
   font-family: sans-serif;
-  font-size: 10px;
+  font-size: 14px;
 }
 
 h1{
-  font-size: 1em;
+  font-size: 1.4em;
   font-weight: bolder;
   padding: 10px 0 5px 10px;
   display: block;
@@ -26,20 +26,20 @@ h1{
 .arrow-left{
   padding-top:15px;
   padding-left: 5px;
-    font-size: .5em;
+  font-size: .5em;
   background-color: black;
-  width:250px;
   height: 40px;
 }
 
 .container {
+  width:650px;
+  height: 100%;
   margin: 0 auto;
-  width: 500px;
-  height: 100px;
+
 }
 
 .restaurant-list {
-  width: 250px;
+  width: 100%;
 }
 
 .location{
@@ -47,7 +47,11 @@ color:black;
 background: #CFD0D0;
 border-bottom: .2px solid #646565;
 /* line-height: 10px; width grey lis */
-overflow:auto;
+overflow:auto
+}
+
+.location:hover{
+background-color: #B4B3B5;
 }
 
 div .arrow{
