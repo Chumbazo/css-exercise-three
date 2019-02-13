@@ -52,6 +52,7 @@ overflow:auto
 
 .location:hover{
 background-color: #B4B3B5;
+  cursor: pointer;
 }
 
 div .arrow{
